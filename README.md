@@ -1,120 +1,44 @@
-TutorLink – Tutor and Student Connection Platform
+ ⁠Project Overview
 
-About the Project
+TutorLink is a tutor booking application designed to connect students with tutors who offer online lessons. The platform provides a convenient way for students to request tutoring sessions while allowing tutors to manage their availability, bookings and learning resources.
 
-TutorLink is a web-based platform designed to connect students with lecturers or tutors and provide access to academic support features. The project includes a website and an Android application that allows users to access the website through a mobile app.
+.⁠ ⁠Project Objectives
 
-The goal of TutorLink is to make it easier for students to find academic assistance and for lecturers or tutors to manage their tutoring-related activities.
+The main objective of TutorLink is to simplify the process of finding and booking tutors. It aims to improve communication between students and tutors, make lesson scheduling easier and provide an organised platform for managing tutoring services.
 
-Features
+.⁠ ⁠Main Features
 
-- Student and Lecturer Profiles: Provides profile areas for students and lecturers.
-- User Authentication: Supports login and registration through the website.
-- Dashboards: Provides separate dashboard areas for different user roles.
-- Session Management: Supports tutoring session-related features.
-- Session Requests: Provides functionality for managing tutoring requests.
-- Learning Resources: Includes access to academic resources.
-- Notifications: Provides a notification feature.
-- Study Groups: Includes study group-related functionality.
-- Android Application: Allows users to access the website through an Android app.
+•⁠  ⁠Tutor Dashboard: Displays important information, including subjects, available hours, uploaded resources, pending booking requests and profit.
+•⁠  ⁠Schedule Management: Allows tutors to manage their available teaching hours and set lesson prices.
+•⁠  ⁠Booking Management: Enables tutors to view, accept or reject student booking requests.
+•⁠  ⁠Learning Resources: Allows tutors to upload and manage educational materials such as PDF documents and videos.
+•⁠  ⁠Profit Tracking: Displays earnings, lost income and net profit from tutoring bookings.
+•⁠  ⁠Notifications: Keeps tutors informed about new booking requests and other important updates.
 
-Feature availability depends on the current implementation and configuration of the website and its backend.
+.⁠ ⁠Technologies Used
 
-Technologies Used
+•⁠  ⁠Android Studio – Android application development.
+•⁠  ⁠Kotlin – Android application programming.
+•⁠  ⁠XML – Application interface layouts.
+•⁠  ⁠WebView – Displays the TutorLink web platform within the Android application.
+•⁠  ⁠Database – Stores application information, including bookings, schedules, subjects and learning resources.
 
-Website
+.⁠ ⁠How to Access the Application
 
-- PHP
-- HTML
-- CSS
-- JavaScript
-- Backend
+Visit the TutorLink platform using the link below:
 
-Android Application
+https://studyplugtools.cloud/plug-me/mqrKc0tL8I/rea/
 
-- Kotlin
-- Android Studio
-- Android WebView
+.⁠ ⁠Installation
 
-Project Structure
+1.⁠ ⁠Download the TutorLink application.
+2.⁠ ⁠Install the application on an Android device.
+3.⁠ ⁠Open the application.
+4.⁠ ⁠Access the TutorLink platform and use its available features.
 
-The project consists of two main components:
+7.⁠ ⁠Project Purpose
 
-1. Website
+TutorLink was developed to provide a simple and accessible solution for connecting students with tutors. It helps tutors organise their teaching activities while making it easier for students to request and access tutoring services.
 
-The website contains the pages, authentication functionality, dashboards, and other tutoring-related features.
 
-Important website files and directories include:
-
-- "index.php" – Website entry page.
-- "app/index.php" – Login page and processing.
-- "app/register.php" – Registration processing.
-- "app/dashboard/index.php" – Dashboard entry point.
-- "app/dashboard/lecturer.php" – Lecturer dashboard.
-- "app/dashboard/pages/" – Dashboard feature pages.
-
-2. Android Application
-
-The Android application displays the website inside a WebView.
-
-The "main_web.kt" file contains the website URL used by the Android application.
-
-How the Android App Works
-
-The Android application uses WebView technology to load the TutorLink website inside the app.
-
-This means that website changes can become available in the Android application without rebuilding the Android app, provided the website remains available at the same URL and the changes do not require modifications to native Android functionality.
-
-If the website URL changes, the URL configured in the Android project must be updated.
-
-Installation and Setup
-
-Website Setup
-
-1. Download or clone this repository.
-2. Install or configure a PHP-compatible web server.
-3. Place the website files in the appropriate server directory.
-4. Configure the required backend/data service connection.
-5. Configure any necessary environment settings and credentials.
-6. Open the website through the configured local or public URL.
-7. Test login, registration, dashboards, profiles, and other features.
-
-8. WEBSITE URL:https://studyplugtools.cloud/plug-me/mqrKc0tL8I/rea/
-
-Android App Setup
-
-1. Install Android Studio.
-2. Clone or download the Android project.
-3. Open the project in Android Studio.
-4. Allow Gradle to synchronise and download the required dependencies.
-5. Open the "main_web.kt" file.
-6. Verify that the configured website URL points to the correct deployed website.
-7. Run the application on an Android emulator or a physical Android device.
-
-Deployment
-
-The website must be deployed to a hosting environment that supports its PHP and backend requirements.
-
-After deployment, verify that the website works correctly in a browser before connecting the Android application to it.
-
-The Android application can then load the deployed website using its configured URL.
-
-Security Considerations
-
-- Do not commit passwords, API keys, database credentials, or private configuration files to GitHub.
-- Use HTTPS for the deployed website.
-- Protect authentication sessions and user information.
-- Validate user input on the server.
-- Ensure that backend services enforce appropriate access controls.
-
-Future Improvements
-
-Potential future improvements include:
-
-- Enhancing student and lecturer profile management.
-- Improving the mobile user experience.
-- Adding further tutoring session management capabilities.
-- Improving notifications and communication.
-- Enhancing accessibility and performance.
-- Expanding testing and deployment automation.
 
