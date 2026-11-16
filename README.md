@@ -29,6 +29,9 @@ Visit the TutorLink platform using the link below:
 
 https://studyplugtools.cloud/plug-me/mqrKc0tL8I/rea/
 
+. YouTube video link
+https://youtube.com/watch?v=X35eG2b9_G8&si=TFAtFDI3XwssK9Sh
+
 .⁠ ⁠Installation
 
 1.⁠ ⁠Download the TutorLink application.
